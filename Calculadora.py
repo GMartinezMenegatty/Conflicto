@@ -2,7 +2,7 @@ class CalculadoraBinaria:
     def __init__(self, a, b):
         self.set_a(a)
         self.set_b(b)
-#Comentario
+#Comentario 2
     def set_a(self, a):
         if isinstance (a, int) or isinstance(a, float) or isinstance(a, complex):
             self.__a = a
